@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "lite-server",
+    "dev": "lite-server"
   },
   "author": "Jose Luis Cullcay",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.4.2"
+    "jest": "^23.4.2",
+    "lite-server": "^2.4.0"
   }
 }
